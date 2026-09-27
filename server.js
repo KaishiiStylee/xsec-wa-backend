@@ -26,7 +26,7 @@ const path = require('path');
 
 const app = express();
 const logger = pino({ level: 'silent' });
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 const SESSION_DIR = '/tmp/wa_session_xsec';
 const RECONNECT_MAX = 3;
