@@ -1,0 +1,19 @@
+{
+  "name": "xsec-wa-backend",
+  "version": "1.0.0",
+  "description": "XSec96 WA Crash Backend — Railway",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "express": "^4.18.2",
+    "pino": "^8.17.2",
+    "qrcode": "^1.5.3",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
